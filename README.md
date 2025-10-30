@@ -5,7 +5,7 @@ Vendor: TP-Link
 
 Firmware: Archer_C50(TW)_V1_160614
 
-There is remote unauthenticated OS command injection on TP-Link Archer C50 devices vie the X_TP_ExternalIPv6Address HTTP parameter, allowing a remote attacker to run arbitrary commands on the router with root privileges.
+There is remote unauthenticated OS command injection on TP-Link Archer C50 devices via the X_TP_ExternalIPv6Address HTTP parameter, allowing a remote attacker to run arbitrary commands on the router with root privileges.
 
 Perform command concatenation on the X_TP_ExternalIPv6Address parameter in the HTTP POST message, the unauthenticated remote attacker can execute the shell command.
 
